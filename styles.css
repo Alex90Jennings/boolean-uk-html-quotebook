@@ -46,10 +46,8 @@ h2 {
 .quote {
     font-size: 2rem;
     font-style: italic;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    place-items: center;
     text-align: center;
     padding: 50px;
 }
